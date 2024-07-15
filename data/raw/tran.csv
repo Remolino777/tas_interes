@@ -1,0 +1,3567 @@
+
+
+
+
+<!DOCTYPE html>
+<!--[if gt IE 8]><!-->
+<html lang="es"> <!--<![endif]--><head
+            >
+    <link rel="stylesheet" type="text/css" href="/fanstatic/vendor/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ideca-metadata/css/zoom.css" />
+
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16685839-14"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+
+            gtag('config', 'UA-16685839-14');
+        </script>
+
+        <meta charset="utf-8"/>
+        
+        <meta name="generator" content="ckan 2.8.1"/>
+        
+        
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Datos Abiertos Bogotá</title>
+
+        <link rel="shortcut icon" href="/favicon.ico"/>
+	<link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+        
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+        
+
+        
+        
+        
+        
+        
+    </head>
+    
+<body
+         data-site-root="https://datosabiertos.bogota.gov.co/" data-locale-root="https://datosabiertos.bogota.gov.co/"  >
+
+<!--[if lt IE 9]>
+<p class="browserupgrade">Está usando un navegador <strong>muy antiguo</strong>. Por favor visita <a
+        href="http://browsehappy.com/"> este sitio</a> para actualizar el navegador y disfrutar de una mejor experiencia
+    para este sitio web.</p>
+<![endif]-->
+
+<!-- Update 09-08-2017 11:20  -->
+
+
+
+<!-- header -->
+
+
+
+<header class="background-white">
+    <!-- container -->
+    <!--admin-bar-->
+    
+
+    <div class="container">
+        
+        <!-- top-bar -->
+
+        <div class="top-bar row">
+            <div class="col-md-3 col-xs-12 col-sm-12 background-blue-dark">
+                <div class="row">
+
+                    <div class="col-xs-10 col-sm-10">
+                        <div class="logo">
+                            <a href="/" class="svg">
+                                <object type="image/svg+xml" data="/img/logo.svg">Su navegador no soporta SVG</object>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-2  col-sm-1">
+                        <a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                           aria-expanded="false" aria-controls="navbar" style="cursor: pointer">
+                            <object type="image/svg+xml" data="/img/icono_menu.svg" class="icon-menu">
+                                Su navegador no soporta SVG
+                            </object>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-8 background-white">
+                
+            <div class="zoom" id="zoom"><ul class="zoom-list"><li class="zoom-in"></li><li class="zoom-out"></li></ul></div>
+                <div class="row log-in">
+                    <ul class="nav-login">
+                        
+
+                        
+                        <li><a class="login-to-entities" href="/user/login">Inicio de sesión para entidades</a>
+                        </li>
+                        
+                        
+                    </ul>
+
+                </div>
+
+                <div class="row menu">
+
+                    <div class="col-xs-12 hidden-xs hidden-sm col-md-4 search-container">
+                        
+                        <form id="sf" class="search-form" method="get"
+                              action="/dataset">
+                            <div class="input-group top-search-container">
+                                <input class="form-control" id="top-search-box" aria-label="Búsqueda de Datasets"
+                                       placeholder="Búsqueda de conjunto de datos" name="q">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default background-search"
+                                            id="top-search-button"
+                                            aria-label="Buscar" id="search-datasets"
+                                            onclick="document.getElementById('sf').submit();"><span
+                                            class="glyphicon glyphicon-search"></span></button>
+                                </div>
+                            </div>
+                        </form>
+                        
+                    </div>
+
+                    <div  id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav" style="padding:0px;position:relative;right:-61px;">
+                            <li><a href="/dataset" id="datasets">Datos</a></li>
+                            <li><a href="/organization" id="entities">Entidades</a></li>
+                            <li><a href="/group" id="groups">Tem&aacute;ticas</a></li>
+                            <li><a class="current-page-breadcrumb" href="/about" id="about-us">Acerca de</a></li>
+
+<li><a class="current-page-breadcrumb" target="_blank" href="https://datosbogota.gitbook.io/manual-usuario/" id="about-us">Ayuda</a></li>
+
+ <li class="hidden-xs visible-sm"><a href="#" class="login-to-entities">Inicio sesion para
+                                entidades</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="col-md-1 background-white">
+                <div class="logo-bogota-top">
+                    <object type="image/svg+xml" data="/img/logo_bogota_mejor_para_todos.svg">
+                        Su navegador no soporta SVG
+                    </object>
+                </div>
+            </div>
+        </div>
+        <!-- end top-bar -->
+        
+    </div>
+
+
+    <!-- end container -->
+</header>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<div class="container">
+    <div class="top-breadcrumb row row-special hidden-xs">
+        <div class="">
+            <a href="/">HOME</a><span class="breadcum-slash">/</span><a href="/dataset">Datos</a><span class="breadcum-slash">/</span><a href="#" class="current-page-breadcrumb">Consolidado de Salidas Sistema Troncal por Franja Horaria</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="background-gris" style="background-color: #F2F2F2">
+    <div class="container">
+        <div class="background-white">
+
+            <div class="container">
+
+        <div class="row">
+            
+                
+                
+                
+
+            
+        </div>
+
+
+
+
+	        <div class="row">
+	    	    <div class="col-md-12 col-lg-12">
+
+                        <div class="container fix-margin fix-padding-detail" style="margin-top: 30px;">
+
+                                <div class="text-a3 m blue-middle m-padding"> <a href="#" class="dataset-link-blue-middle">Consolidado de Salidas Sistema Troncal por Franja Horaria</a></div>
+
+                                <div class="margin-bt-20"></div>
+                                <p class="hidden-xs text-a4"> Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria. </p>
+                                <p class="hidden-xs text-a333 blue-middle"> Transmilenio S.A. </p>
+
+				
+				    <a href="https://creativecommons.org/licenses/by/4.0" target="_blank"><img src="../img/CC_BY.png" alt="Creative Commons Attribution" class="" alt="" style="width:80px; height:28px;"></a>
+				
+
+
+        
+        
+
+        <p><div class="text-a4 l gray dataset-display"><b>Última actualización: </b> 24/04/2020
+            </div>
+        </p>
+
+        
+
+
+
+
+                                <div class="margin-bt-20 visible-xs"></div>
+                                <div class="line-blue-light visible-xs"></div>
+				</div>
+                                <div class="row">
+
+					<div class="col-md-3 col-xs-3 col-sm-3">
+					<div class="row" style="margin-left: 15px;">
+                                            <span class="icon-download-one "><span class="path1"><span class="path2"></span></span></span>
+                                            <div class="downloads-count">
+                                                
+                                                116577
+                                                
+                                                    Descargas
+                                                
+                                            </div>
+					</div>
+                                        </div>
+
+					<div class="col-md-3 col-xs-3 col-sm-3">
+                                        <div class="row">
+                                            <span class="icon-views"><span class="path1"><span class="path2"><span class="path3"></span></span></span></span>
+                                            <div class="views-count">
+                                                
+                                                2623
+                                                
+                                                    Visitas
+                                                
+                                            </div>
+                                        </div>
+                                </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            <!--/div-->
+
+
+
+
+
+            <div style="width: 94%;left:1.5%;position: relative;" class="line-grey-light"></div>
+            
+              
+<!--div class="container dataset-detail-content fix-margin fix-right-padding-detail-dataset"-->
+<div class="container" style="width: 97%;position:relative;left:-1.5%">
+    <div class="row">
+
+        <!--div class="col-md-6 col-xs-6">
+            <span class="blue-dark text-a3 dataset-link-blue bigger">Descarga y Previsualización</span>
+        </divi-->
+
+    </div>
+
+    <div class="margin-bt-30"></div>
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="b50ecf2b-1ac7-4436-9b12-92aa5a98db95">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/b50ecf2b-1ac7-4436-9b12-92aa5a98db95" title="Consolidado de Salidas Sistema Troncal por Franja Horaria">
+    Consolidado de Salidas Sistema Troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="357 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de Salidas Sistema Troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria de enero a abril de 2020.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/b50ecf2b-1ac7-4436-9b12-92aa5a98db95/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-enero-abril-2020.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/b50ecf2b-1ac7-4436-9b12-92aa5a98db95">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="094219cd-2581-491a-8991-3cb6ec089918">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/094219cd-2581-491a-8991-3cb6ec089918" title="Metadatos Consolidado de Salidas Sistema Troncal">
+    Metadatos Consolidado de Salidas Sistema Troncal<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="84 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Metadatos Consolidado de Salidas Sistema Troncal</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Descripción de las columnas del conjunto de datos "Consolidado Salidas Sistema Troncal por Franja Horaria"
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/094219cd-2581-491a-8991-3cb6ec089918/download/metadatos-consolidado-de-salidas-sistema-troncal.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/094219cd-2581-491a-8991-3cb6ec089918">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="3122e182-76c2-461f-8ed1-536b188ea4d9">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/3122e182-76c2-461f-8ed1-536b188ea4d9" title="Consolidado de salidas sistema troncal por franja horaria - Mayo 2020">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="42 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de mayo de 2020
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/3122e182-76c2-461f-8ed1-536b188ea4d9/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-mayo-2020.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/3122e182-76c2-461f-8ed1-536b188ea4d9">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="6e833a87-04a8-4c59-9350-8bacd9f42701">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/6e833a87-04a8-4c59-9350-8bacd9f42701" title="Consolidado de salidas sistema troncal por franja horaria - Junio 2020.csv">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="20 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de junio de 2020.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/6e833a87-04a8-4c59-9350-8bacd9f42701/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-junio-2020.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/6e833a87-04a8-4c59-9350-8bacd9f42701">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="264267dc-63e5-4188-b9c4-1b04e2f12dce">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/264267dc-63e5-4188-b9c4-1b04e2f12dce" title="Consolidado de Salidas Sistema Troncal por Franja Horaria - Julio 2020">
+    Consolidado de Salidas Sistema Troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="21 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de Salidas Sistema Troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Julio de 2020.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/264267dc-63e5-4188-b9c4-1b04e2f12dce/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-julio-2020.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/264267dc-63e5-4188-b9c4-1b04e2f12dce">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="dc43da4e-2986-4f97-a488-17b2117fc553">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/dc43da4e-2986-4f97-a488-17b2117fc553" title="Consolidado de salidas sistema troncal por franja horaria - Agosto 2020">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="18 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de agosto de 2020
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/dc43da4e-2986-4f97-a488-17b2117fc553/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-agosto-2020.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/dc43da4e-2986-4f97-a488-17b2117fc553">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="29c8239d-cb4e-40b0-8ff5-e1d75e59d6f2">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/29c8239d-cb4e-40b0-8ff5-e1d75e59d6f2" title="Consolidado de salidas sistema troncal por franja horaria - Septiembre 2020">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="19 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Septiembre...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/29c8239d-cb4e-40b0-8ff5-e1d75e59d6f2/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-septiembre-2020.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/29c8239d-cb4e-40b0-8ff5-e1d75e59d6f2">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="a10b274d-726a-4210-b7dc-48dab01a0e3f">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a10b274d-726a-4210-b7dc-48dab01a0e3f" title="Consolidado de salidas sistema troncal por franja horaria - Octubre 2020">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="11 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de octubre de 2020
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/a10b274d-726a-4210-b7dc-48dab01a0e3f/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-octubre-2020.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a10b274d-726a-4210-b7dc-48dab01a0e3f">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="94c3b251-ba15-44ff-8233-9ab40ed86be5">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/94c3b251-ba15-44ff-8233-9ab40ed86be5" title="Consolidado de salidas sistema troncal por franja horaria - Noviembre 2020">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria de Noviembre de 2020.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/94c3b251-ba15-44ff-8233-9ab40ed86be5/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-noviembre-2020.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/94c3b251-ba15-44ff-8233-9ab40ed86be5">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="65f65a00-0ba4-45e8-9127-e18d4b62edcb">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/65f65a00-0ba4-45e8-9127-e18d4b62edcb" title="Consolidado de salidas sistema troncal por franja horaria - Diciembre 2020">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="12 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de diciembre de...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/65f65a00-0ba4-45e8-9127-e18d4b62edcb/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-diciembre-2020.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/65f65a00-0ba4-45e8-9127-e18d4b62edcb">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="dfb2db7f-a850-4f0c-9beb-83445ad211c0">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/dfb2db7f-a850-4f0c-9beb-83445ad211c0" title="Consolidado de salidas sistema troncal por franja horaria - Enero 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="16 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de enero de 2021
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/dfb2db7f-a850-4f0c-9beb-83445ad211c0/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-enero-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/dfb2db7f-a850-4f0c-9beb-83445ad211c0">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="31bc0b93-2925-4cf4-b217-79814e6e21eb">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/31bc0b93-2925-4cf4-b217-79814e6e21eb" title="Consolidado de salidas sistema troncal por franja horaria - Febrero 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="17 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria de febrero de 2021
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/31bc0b93-2925-4cf4-b217-79814e6e21eb/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-febrero-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/31bc0b93-2925-4cf4-b217-79814e6e21eb">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="c40a70ba-f36e-4e55-acad-029d645fd222">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/c40a70ba-f36e-4e55-acad-029d645fd222" title="Consolidado de salidas sistema troncal por franja horaria - Marzo 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="12 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria - Marzo de 2021
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/c40a70ba-f36e-4e55-acad-029d645fd222/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-marzo-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/c40a70ba-f36e-4e55-acad-029d645fd222">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="e2f4c64a-ce95-4b77-9ec7-1a5e13bfb5e9">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/e2f4c64a-ce95-4b77-9ec7-1a5e13bfb5e9" title="Consolidado de salidas sistema troncal por franja horaria - Abril 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="12 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de abril de 2021.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/e2f4c64a-ce95-4b77-9ec7-1a5e13bfb5e9/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-abril-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/e2f4c64a-ce95-4b77-9ec7-1a5e13bfb5e9">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="d5c30b64-0928-4c0a-944a-1b47d682fe91">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/d5c30b64-0928-4c0a-944a-1b47d682fe91" title="Consolidado de salidas sistema troncal por franja horaria - Mayo 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="11 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Mayo de 2021.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/d5c30b64-0928-4c0a-944a-1b47d682fe91/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-mayo-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/d5c30b64-0928-4c0a-944a-1b47d682fe91">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="344a996e-ca1d-4820-a9e2-4e739acc7e24">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/344a996e-ca1d-4820-a9e2-4e739acc7e24" title="Consolidado de salidas sistema troncal por franja horaria - Junio 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="13 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de junio de 2021
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/344a996e-ca1d-4820-a9e2-4e739acc7e24/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-junio-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/344a996e-ca1d-4820-a9e2-4e739acc7e24">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="2ae53e6b-6f3d-4b68-96eb-4e20d591d4d8">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/2ae53e6b-6f3d-4b68-96eb-4e20d591d4d8" title="Consolidado de salidas sistema troncal por franja horaria - Julio 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="14 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de julio de 2021.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/2ae53e6b-6f3d-4b68-96eb-4e20d591d4d8/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-julio-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/2ae53e6b-6f3d-4b68-96eb-4e20d591d4d8">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="a7f3357c-d12a-4cbf-a727-923fdd905bc0">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a7f3357c-d12a-4cbf-a727-923fdd905bc0" title="Consolidado de salidas sistema troncal por franja horaria - Agosto 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="12 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de agosto de 2021
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/a7f3357c-d12a-4cbf-a727-923fdd905bc0/download/cicloparqueaderos-del-sistema-transmilenio-agosto-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a7f3357c-d12a-4cbf-a727-923fdd905bc0">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="a1c5dcad-93d4-42a7-ad1b-5d223f242c20">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a1c5dcad-93d4-42a7-ad1b-5d223f242c20" title="Consolidado de salidas sistema troncal por franja horaria - Septiembre 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="14 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de septiembre...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/a1c5dcad-93d4-42a7-ad1b-5d223f242c20/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-septiembre-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a1c5dcad-93d4-42a7-ad1b-5d223f242c20">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="156b45e0-969e-4ddf-8988-e93ef1e6cf54">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/156b45e0-969e-4ddf-8988-e93ef1e6cf54" title="Consolidado de salidas sistema troncal por franja horaria - Diciembre 2021">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de diciembre de...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/156b45e0-969e-4ddf-8988-e93ef1e6cf54/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-diciembre-2021.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/156b45e0-969e-4ddf-8988-e93ef1e6cf54">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="aca438d4-1843-495b-a680-cdba4cd934e7">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/aca438d4-1843-495b-a680-cdba4cd934e7" title="Consolidado de salidas sistema troncal por franja horaria - Enero 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="14 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Enero de 2022
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/aca438d4-1843-495b-a680-cdba4cd934e7/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-enero-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/aca438d4-1843-495b-a680-cdba4cd934e7">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="2de97f11-3a4e-4ca9-a7f1-108a3338b16a">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/2de97f11-3a4e-4ca9-a7f1-108a3338b16a" title="Consolidado de salidas sistema troncal por franja horaria - Febrero 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="16 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de febrero de 2022
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/2de97f11-3a4e-4ca9-a7f1-108a3338b16a/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-febrero-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/2de97f11-3a4e-4ca9-a7f1-108a3338b16a">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="825a6e49-1596-4347-ab74-dcbc17f4f307">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/825a6e49-1596-4347-ab74-dcbc17f4f307" title="Consolidado de salidas sistema troncal por franja horaria - Marzo 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="15 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de marzo de 2022.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/825a6e49-1596-4347-ab74-dcbc17f4f307/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-marzo-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/825a6e49-1596-4347-ab74-dcbc17f4f307">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="1891d4d3-d1c1-4794-851e-d6fd0114fb70">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/1891d4d3-d1c1-4794-851e-d6fd0114fb70" title="Consolidado de salidas sistema troncal por franja horaria - Abril 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="15 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Abril de 2022
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/1891d4d3-d1c1-4794-851e-d6fd0114fb70/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-abril-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/1891d4d3-d1c1-4794-851e-d6fd0114fb70">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="d794c91d-65a4-4105-848f-ab2042f7220b">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/d794c91d-65a4-4105-848f-ab2042f7220b" title="Consolidado de salidas sistema troncal por franja horaria - Mayo 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Mayo de 2022
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/d794c91d-65a4-4105-848f-ab2042f7220b/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-mayo-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/d794c91d-65a4-4105-848f-ab2042f7220b">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="788c2102-c83a-4f12-8431-115bbbc89fab">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/788c2102-c83a-4f12-8431-115bbbc89fab" title="Consolidado de salidas sistema troncal por franja horaria - Junio 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="12 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de junio de 2022
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/788c2102-c83a-4f12-8431-115bbbc89fab/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-junio-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/788c2102-c83a-4f12-8431-115bbbc89fab">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="3a39dcb3-92fe-4748-8830-f39dadafd240">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/3a39dcb3-92fe-4748-8830-f39dadafd240" title="Consolidado de salidas sistema troncal por franja horaria - Julio 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="13 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Julio de 2022.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/3a39dcb3-92fe-4748-8830-f39dadafd240/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-julio-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/3a39dcb3-92fe-4748-8830-f39dadafd240">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="6b068e76-aa85-4f1c-b0c1-addd843ba90c">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/6b068e76-aa85-4f1c-b0c1-addd843ba90c" title="Consolidado de salidas sistema troncal por franja horaria - Agosto 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="11 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Agosto de 2022
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/6b068e76-aa85-4f1c-b0c1-addd843ba90c/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-agosto-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/6b068e76-aa85-4f1c-b0c1-addd843ba90c">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="ed442d94-ada6-4411-a6ef-c96f0cd8b2c3">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/ed442d94-ada6-4411-a6ef-c96f0cd8b2c3" title="Consolidado de salidas sistema troncal por franja horaria - Septiembre 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Septiembre...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/ed442d94-ada6-4411-a6ef-c96f0cd8b2c3/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-septiembre-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/ed442d94-ada6-4411-a6ef-c96f0cd8b2c3">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="de5bb1d3-765b-4242-ab21-cb17f5397c1a">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/de5bb1d3-765b-4242-ab21-cb17f5397c1a" title="Consolidado de salidas sistema troncal por franja horaria - Octubre 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de octubre de 2020
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/de5bb1d3-765b-4242-ab21-cb17f5397c1a/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-octubre-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/de5bb1d3-765b-4242-ab21-cb17f5397c1a">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="1100b53c-dd10-48e4-aa33-e15878a6e00b">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/1100b53c-dd10-48e4-aa33-e15878a6e00b" title="Consolidado de salidas sistema troncal por franja horaria - Noviembre 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de noviembre de...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/1100b53c-dd10-48e4-aa33-e15878a6e00b/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-noviembre-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/1100b53c-dd10-48e4-aa33-e15878a6e00b">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="a45f1d8a-825d-45cc-8add-2c85f9198c09">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a45f1d8a-825d-45cc-8add-2c85f9198c09" title="Consolidado de salidas sistema troncal por franja horaria - Diciembre 2022">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de diciembre de...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/a45f1d8a-825d-45cc-8add-2c85f9198c09/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-diciembre-2022.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a45f1d8a-825d-45cc-8add-2c85f9198c09">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="f19575f1-405a-4098-b94c-3e4bebeb96e1">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/f19575f1-405a-4098-b94c-3e4bebeb96e1" title="Consolidado de salidas sistema troncal por franja horaria - Enero 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de enero de 2023.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/f19575f1-405a-4098-b94c-3e4bebeb96e1/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-enero-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/f19575f1-405a-4098-b94c-3e4bebeb96e1">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="e8fabbe2-040e-4fa6-a87f-43fce1dbc69d">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/e8fabbe2-040e-4fa6-a87f-43fce1dbc69d" title="Consolidado de salidas sistema troncal por franja horaria - Febrero 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="13 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Febrero de...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/e8fabbe2-040e-4fa6-a87f-43fce1dbc69d/download/cicloparqueaderos-del-sistema-transmilenio-febrero-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/e8fabbe2-040e-4fa6-a87f-43fce1dbc69d">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="6a954acb-b231-487e-9d1a-a4136e07bfc9">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/6a954acb-b231-487e-9d1a-a4136e07bfc9" title="Consolidado de salidas sistema troncal por franja horaria - Marzo 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="12 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de marzo de 2023
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/6a954acb-b231-487e-9d1a-a4136e07bfc9/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-marzo-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/6a954acb-b231-487e-9d1a-a4136e07bfc9">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="60770f2c-8003-49f3-9f15-3ad44bb1439c">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/60770f2c-8003-49f3-9f15-3ad44bb1439c" title="Consolidado de salidas sistema troncal por franja horaria - Abril 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="11 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria de abril de 2023.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/60770f2c-8003-49f3-9f15-3ad44bb1439c/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-abril-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/60770f2c-8003-49f3-9f15-3ad44bb1439c">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="16dace8a-d03a-4527-9a4c-d58249ca5af0">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/16dace8a-d03a-4527-9a4c-d58249ca5af0" title="Consolidado de salidas sistema troncal por franja horaria - Mayo 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="10 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de mayo de 2023.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/16dace8a-d03a-4527-9a4c-d58249ca5af0/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-mayo-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/16dace8a-d03a-4527-9a4c-d58249ca5af0">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="bb87fda1-148a-4c65-b341-855ba3179b9a">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/bb87fda1-148a-4c65-b341-855ba3179b9a" title="Consolidado de salidas sistema troncal por franja horaria - Junio 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Junio de 2023.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/bb87fda1-148a-4c65-b341-855ba3179b9a/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-junio-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/bb87fda1-148a-4c65-b341-855ba3179b9a">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="a1d50917-b063-43c9-ad13-a948e76e9358">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a1d50917-b063-43c9-ad13-a948e76e9358" title="Consolidado de salidas sistema troncal por franja horaria - Julio 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="10 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de julio de 2023.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/a1d50917-b063-43c9-ad13-a948e76e9358/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-julio-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/a1d50917-b063-43c9-ad13-a948e76e9358">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="6f0b5a32-2910-4f23-97c5-df557c7103ec">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/6f0b5a32-2910-4f23-97c5-df557c7103ec" title="Consolidado de salidas sistema troncal por franja horaria - Agosto 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="10 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria de Agosto de 2023.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/6f0b5a32-2910-4f23-97c5-df557c7103ec/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-agosto-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/6f0b5a32-2910-4f23-97c5-df557c7103ec">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="1b07ca07-3ec7-471f-811f-1c35352f7550">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/1b07ca07-3ec7-471f-811f-1c35352f7550" title="Consolidado de salidas sistema troncal por franja horaria - Septiembre 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de septiembre...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/1b07ca07-3ec7-471f-811f-1c35352f7550/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-septiembre-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/1b07ca07-3ec7-471f-811f-1c35352f7550">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="cb065203-3d04-4f14-8b0a-ab3a5a4a59ea">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/cb065203-3d04-4f14-8b0a-ab3a5a4a59ea" title="Consolidado de salidas sistema troncal por franja horaria - Octubre 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de octubre de 2023
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/cb065203-3d04-4f14-8b0a-ab3a5a4a59ea/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-octubre-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/cb065203-3d04-4f14-8b0a-ab3a5a4a59ea">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="9f4814a8-a7b3-46f8-ae76-821ef4180ac9">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/9f4814a8-a7b3-46f8-ae76-821ef4180ac9" title="Consolidado de salidas sistema troncal por franja horaria - Noviembre 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de noviembre de...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/9f4814a8-a7b3-46f8-ae76-821ef4180ac9/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-noviembre-2023.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/9f4814a8-a7b3-46f8-ae76-821ef4180ac9">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="205d8af2-bec9-425d-9c95-f5738215c2bb">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/205d8af2-bec9-425d-9c95-f5738215c2bb" title="Consolidado de salidas sistema troncal por franja horaria - Diciembre 2023">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="115590 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria de diciembre de 2023
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/205d8af2-bec9-425d-9c95-f5738215c2bb">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="077273c4-b06f-496c-803c-a26027923bea">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/077273c4-b06f-496c-803c-a26027923bea" title="Consolidado de salidas sistema troncal por franja horaria - Enero 2024">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="10 vistas" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de enero de 2024.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/077273c4-b06f-496c-803c-a26027923bea/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-enero-2024.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/077273c4-b06f-496c-803c-a26027923bea">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="4fec2dc3-2d5d-4ebc-8dc3-fa40c091e5a3">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/4fec2dc3-2d5d-4ebc-8dc3-fa40c091e5a3" title="Consolidado de salidas sistema troncal por franja horaria - Febrero 2024">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de febrero de...
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/4fec2dc3-2d5d-4ebc-8dc3-fa40c091e5a3/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-febrero-2024.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/4fec2dc3-2d5d-4ebc-8dc3-fa40c091e5a3">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="8ad3df31-7b63-43ab-94bb-970cdc18eced">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/8ad3df31-7b63-43ab-94bb-970cdc18eced" title="Consolidado de salidas sistema troncal por franja horaria - Marzo 2024">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de Marzo de 2024.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/8ad3df31-7b63-43ab-94bb-970cdc18eced/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-marzo-2024.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/8ad3df31-7b63-43ab-94bb-970cdc18eced">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="185ed3ec-eb6a-4092-9e0c-b95e5d4fe6cd">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/185ed3ec-eb6a-4092-9e0c-b95e5d4fe6cd" title="Consolidado de salidas sistema troncal por franja horaria - Abril 2024">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de abril de 2024
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/185ed3ec-eb6a-4092-9e0c-b95e5d4fe6cd/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-abril-2024.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/185ed3ec-eb6a-4092-9e0c-b95e5d4fe6cd">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="0f8d352a-d7e1-49cd-a17b-b1e944ec327e">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/0f8d352a-d7e1-49cd-a17b-b1e944ec327e" title="Consolidado de salidas sistema troncal por franja horaria - Mayo 2024">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de mayo de 2024.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/0f8d352a-d7e1-49cd-a17b-b1e944ec327e/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-mayo-2024.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/0f8d352a-d7e1-49cd-a17b-b1e944ec327e">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+        
+
+
+
+
+
+
+
+    <div class="row dataset-item-file">
+        <div class="col-md-1 col-xs-3 resource-item" data-id="5a17b45a-89e7-4fd0-973a-8f9d6232ac48">
+<!--span class="format-label" property="dc:format" data-format="csv">
+CSV</spane  <-a class="heading" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/5a17b45a-89e7-4fd0-973a-8f9d6232ac48" title="Consolidado de salidas sistema troncal por franja horaria - Junio 2024">
+    Consolidado de salidas sistema troncal por ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a-->
+
+<!--span class="format-label" property="dc:format" data-format="csv">CSV</span-->
+
+
+<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        </div>
+        <div class="col-md-5 col-xs-9">
+            <p>
+
+                <span class="dataset-link-blue-middle text-a3 bigger">Consolidado de salidas sistema troncal por ...</span>
+
+                <br>
+                
+                <span class="gray text-a4">
+                Contiene la relación de los registros de salidas de usuarios del sistema troncal de Transmilenio por fecha y franja horaria del mes de junio de 2024.
+                </span>
+                
+
+            </p>
+        </div>
+        <div class="col-md-6  col-xs-12">
+
+            <div class="block-right-width v-center">
+                <a type="button" class="btn btn-default background-blue block-right-width resource-url-analytics" style="padding: 2px; margin-left: 32px" href="https://datosabiertos.bogota.gov.co/dataset/fa3172c1-3c1a-4d7f-8445-a487c9357714/resource/5a17b45a-89e7-4fd0-973a-8f9d6232ac48/download/consolidado-de-salidas-sistema-troncal-por-franja-horaria-junio-2024.csv">
+                    <span class="glyphicon glyphicon-download" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 30px; padding-right: 30px">Descargar</span>
+                </a>
+                
+                <a type="button" class="btn btn-default background-blue block-right-width hidden-xs" style="padding: 2px; margin-left: 32px" href="/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria/resource/5a17b45a-89e7-4fd0-973a-8f9d6232ac48">
+                    <span class="glyphicon glyphicon-eye-open" style=" padding-left: 5px"></span>
+                    <span class="text-a4" style="padding-left: 20px; padding-right: 20px">Previsualización</span>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--div class="line-grey-light"></div-->
+
+
+    
+
+            <!--div class="line-grey-light"></div-->
+    <div "margin-bt-30"></div>
+    
+
+</div>
+            
+
+            <div style="width: 94%;left:1.5%;position: relative;" class="line-grey-light"></div>
+
+
+	    
+         	
+
+
+
+
+<section style="width:94%;left:1%;position: relative;">
+<div style="width:100%;">
+<div class="no-padding padding-mobile">
+<!--p class="additional-info-title text-a3">Información adicional</p-->
+
+<script>
+var hidden = true;
+
+function collapseFunction(){
+    console.log("testing collapsible class");
+console.log(document.getElementById("btn_collapse"));
+if(!hidden){
+    hidden=true;
+    var coll = document.getElementsByClassName("collapsible");
+    for(var col in coll){
+	if(coll[col]!= undefined && coll[col].style!= undefined && coll[col].style['display'] != undefined){
+            coll[col].style['display'] = 'none';
+        }
+    }
+    document.getElementById("btn_collapse").innerText = "Mostrar más";
+}else{
+    hidden=false;
+    var coll = document.getElementsByClassName("collapsible");
+    for(var col in coll){
+        if(coll[col]!= undefined && coll[col].style!= undefined && coll[col].style['display'] != undefined){
+            coll[col].style['display'] = 'table-row';
+        }
+    }
+    document.getElementById("btn_collapse").innerText = "Mostrar menos";
+}
+
+}
+
+
+</script>
+
+    <h2>Información Adicional</h2>
+
+
+    <table class="table additional-info-table">
+
+    
+    <tr>
+        <th scope="row" class="dataset-label" style="width:50%;">Forma de presentación</th>
+        <td class="dataset-details">Documento Digital</td>
+    </tr>
+    
+    
+
+    <tr>
+        <th scope="row" class="dataset-label" style="width:50%;">Frecuencía de Actualización</th>
+        <td class="dataset-details">Mensual</td>
+    </tr>
+    
+
+    
+    <tr>
+        <th scope="row" class="dataset-label" style="width:50%;">Palabras claves</th>
+
+        <td class="dataset-details">
+        
+        Estaciones
+        , 
+        
+        estación
+        , 
+        
+        movilidad
+        , 
+        
+        salida
+        , 
+        
+        salidas
+        , 
+        
+        transmilenio
+        , 
+        
+        transporte
+        , 
+        
+        troncal
+        
+        
+        </td>
+
+    </tr>
+    
+
+    
+    
+    <tr>
+        <th scope="row" class="dataset-label" style="width:50%;">Enlace a otros recursos</th>
+        
+        <td class="dataset-details"><a href="https://datosabiertos-transmilenio.hub.arcgis.com/">https://datosabiertos-transmilenio.hub.arcgis.com/</a></td>
+        
+
+    </tr>
+    
+
+    
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label" style="width:50%;">Fecha creación del metadato</th>
+        <td class="dataset-details">2020-04-24</td>
+    </tr>
+
+    
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label" style="width:50%;">Fecha actualización metadato</th>
+        <td class="dataset-details">2024-07-05</td>
+    </tr>
+
+
+    
+    
+    
+    
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label" style="width:50%;">Categoría Temática</th>
+        <td class="dataset-details">Transporte</td>
+    </tr>
+    
+
+
+
+    
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label" style="width:50%;">Idioma</th>
+        <td class="dataset-details">Espanol</td>
+    </tr>
+
+    
+
+    <!--/table-->
+
+    
+    <!--h2>Calidad</h2-->
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label" style="width:50%;">Alcance de la calidad de los datos</th>
+        <td class="dataset-details">Conjunto de datos</td>
+    </tr>
+    
+
+    <!--table class="table additional-info-table"-->
+    
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label" style="width:50%;">Reporte de la calidad</th>
+        <td class="dataset-details">El conjunto de datos cumple con la calidad de acuerdo con los lineamientos para datos abiertos</td>
+    </tr>
+    
+
+
+    <!--/table-->
+
+    
+    <!--h2>Representación Espacial</h2-->
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label" style="width:50%;">Distribuidor</th>
+        <td class="dataset-details">Transmilenio S.A.</td>
+    </tr>
+    
+
+    <!--table class="table additional-info-table"-->
+    
+
+
+
+    <!--/table-->
+
+    <!--/table-->
+
+    <!--table class="table additional-info-table"-->
+
+    
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label" style="width:50%;">Alcance del metadato</th>
+        <td class="dataset-details">Conjunto de datos</td>
+    </tr>
+    
+
+    
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label"style="width:50%;" >Tipo de Responsable</th>
+        <td class="dataset-details">Autor</td>
+    </tr>
+    
+
+    
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label"style="width:50%;">Responsable del Metadato</th>
+        <td class="dataset-details">Transmilenio S.A.</td>
+    </tr>
+    
+
+    
+    <tr class="collapsible" style="display:none;">
+        <th scope="row" class="dataset-label"style="width:50%;">Link a servicio XML</th>
+        <td class="dataset-details"><a href="/metadata/dataset?id=fa3172c1-3c1a-4d7f-8445-a487c9357714">/metadata/dataset?id=fa3172c1-3c1a-4d7f-8445-a487c9357714</a></td>
+    </tr>
+    
+
+<tr class="toggle-show toggle-show-more">
+<th>
+<small>
+<button id='btn_collapse' onclick="collapseFunction()" class="blue-middle" style="border:none; background:none!important;">Mostrar más</button>
+</small>
+</th>
+</tr>
+
+    </table>
+
+
+</div>
+
+</section>
+
+	    
+
+            <div style="width: 94%;left:1.5%;position: relative;" class="line-grey-light"></div>
+            <div class="no-padding padding-mobile" style="width:97%">
+
+            </div>
+
+
+            <div style="width:93%;left: 2%;" class="comments-package">
+                
+                
+            </div>
+
+            <div style="height: 20px;"></div>
+
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        
+        <div class="col-md-2 col-xs-6 white">
+            
+            <ul class="nav-footer" style="padding-left: 0;">
+                
+                <li><a href="/about">Acerca de Datos Abiertos Bogotá</a></li>
+                
+                
+                
+                <li><a href="http://docs.ckan.org/en/2.8/api/">API CKAN</a></li>
+                <li><a href="http://www.ckan.org/">CKAN Association</a></li>
+                <li><a href="http://www.opendefinition.org/okd/"><img
+                        src="/base/images/od_80x15_blue.png"></a></li>
+                
+            </ul>
+            
+        </div>
+        <div class="col-md-2 col-xs-6 col-md-offset-7">
+
+            <img class="block-right footer-logo" src="/img/logo_secretaria.svg" alt="">
+        </div>
+
+        
+        
+        
+        
+    </div>
+</footer>
+
+<script src="/js/vendor/modernizr.js"></script>
+<script src="/js/vendor/jquery.min.js"></script>
+<script src="/js/vendor/bootstrap.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+<script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/jed.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/moment-with-locales.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.inherit.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.proxy-all.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.url-helpers.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.date-helpers.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.slug.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.slug-preview.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.truncator.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.form-warning.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/plugins/jquery.images-loaded.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/sandbox.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/module.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/pubsub.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/client.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/notify.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/i18n.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/main.min.js"></script>
+<script type="text/javascript" src="/fanstatic/ideca-metadata/js/zoom.js"></script></body>
+</html> 
